@@ -1,6 +1,6 @@
 use clap::Parser;
 use owo_colors::OwoColorize;
-use std::{fs, path::PathBuf};
+use std::{fs, path::Path, path::PathBuf};
 
 #[derive(Debug, Parser)]
 #[command(version, about, long_about = "Best ls command ever")]
